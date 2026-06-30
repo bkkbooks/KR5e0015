@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5e0015/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5e0015/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶國王行道經
+  date: '2015-08-29 02:06:51.050886'
+  source:
+    repository: kanripo
+    path: KR5e0015
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5e0015_000-HFL.yaml, hash: 'sha256:0722eb69ed01efa1afa21299e8c3e31953b2acb9d4ffa2887640ec0aa5b1f368'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5e0015_000-HFL.markers.yaml, hash: 'sha256:006df9e04a6310985136d76e6d74a8f5722c0f79a4f37318aa91895a3ee42715'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5e0015_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3547
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9b3b43b0de3141857c9d2ee09d789e5adde455d1649d6e2f690422ca9e2fa837
